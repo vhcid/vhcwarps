@@ -1,0 +1,16 @@
+name: Vhcwarps
+version: ${project.version}
+main: tech.vhcid.vhcwarps.Vhcwarps
+api-version: 1.16
+authors: [ Zack_QuaryX ]
+description: Warps For VHC Server.
+website: vhcid.tech
+softdepend: [Multiverse-Core]
+
+commands:
+  warp:
+    aliases: [warps]
+  setwarp:
+    aliases: [settingwarp]
+  delwarp:
+    aliases: [deletewarp]
